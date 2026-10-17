@@ -29,3 +29,7 @@ Google Fonts is used for typography, with local fallback fonts when unavailable.
 Open `login.html` (opening `index.html` redirects there until signed in). Use student ID `NB-2024-00842` and demo password `Northbridge2026!`. Sign out from the portal header. Credentials are public samples; this is not secure authentication. Do not use real passwords. Session state uses sessionStorage; no password is stored. Production authentication needs a backend or identity provider.
 
 The public About page is `about.html`; an About section is also available in the portal sidebar. Keep all HTML, JavaScript and CSS files together.
+
+## Usability update
+
+The dashboard prioritizes the nearest incomplete deadline and the next scheduled class. Dates and deadline statuses use Africa/Harare campus time. Timetables and calendar exports use the displayed week (the next Monday on weekends), with recurring classes limited to the sample semester. Historical academic records and announcements remain sample data. Text contrast, touch targets, and compact mobile layouts have been improved. Secure real accounts and institutional records remain an integration requirement.
